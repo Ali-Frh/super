@@ -10,7 +10,7 @@ return {
 	yandex_key = '',
 	simsimi_key = '',
 	simsimi_trial = true,
-	time_offset = 0,
+	time_offset = 1,
 	lang = 'en',
 	-- If you change this, make sure you also modify launch-tg.sh.
 	cli_port = 4567,
