@@ -1,5 +1,5 @@
 return {
-	bot_api_key = '',
+	bot_api_key = '214106354:AAGNfFj0BKaQ97i0MRnUTtInWYYim2tHXK8',
 	google_api_key = '',
 	google_cse_key = '',
 	lastfm_api_key = '',
@@ -14,8 +14,8 @@ return {
 	lang = 'en',
 	-- If you change this, make sure you also modify launch-tg.sh.
 	cli_port = 4567,
-	admin = 00000000,
-	admin_name = 'John Smith',
+	admin = 25866548,
+	admin_name = 'Ali Destroyer',
 	log_chat = nil,
 	about_text = [[
 I am otouto, the plugin-wielding, multi-purpose Telegram bot.
@@ -58,7 +58,7 @@ Send /help to get started.
 	},
 	moderation = {
 		admins = {
-			['00000000'] = 'You'
+			['25866548'] = 'You'
 		},
 		errors = {
 			antisquig = 'This group is English-only.',
@@ -105,6 +105,7 @@ Send /help to get started.
 		'shout.lua',
 		'apod.lua',
 		'patterns.lua',
+		'plguins.lua',
 		-- Put new plugins above this line.
 		'help.lua',
 		'greetings.lua'
